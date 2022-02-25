@@ -1,0 +1,85 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input{
+    border:none;
+    width: 50%;
+    outline: none;
+    font-size: 100px;
+    text-align: center;
+    background: transparent;
+    color: white;
+}
+
+.calculate{
+    background: #1F2937;
+    color: white;
+}
+
+
+
+h1{
+    color: white;
+}
+
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+    
+}
+
+img {
+    width: 200px;
+    display: block;
+}
+p {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+button {
+    background: white;
+    color: black;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#error {
+    color: red;
+    font-weight: 200;
+}
+
+#demo {
+    display: none;
+}
+
+.baka {background-image: linear-gradient(
+  45deg,
+  hsl(240deg 100% 20%) 0%,
+  hsl(289deg 100% 21%) 11%,
+  hsl(315deg 100% 27%) 22%,
+  hsl(329deg 100% 36%) 33%,
+  hsl(337deg 100% 43%) 44%,
+  hsl(357deg 91% 59%) 56%,
+  hsl(17deg 100% 59%) 67%,
+  hsl(34deg 100% 53%) 78%,
+  hsl(45deg 100% 50%) 89%,
+  hsl(55deg 100% 50%) 100%
+);}
